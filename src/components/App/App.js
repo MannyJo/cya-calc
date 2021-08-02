@@ -1,11 +1,9 @@
-import HelloWord from '../HelloWorld/HelloWolrd';
+import Cards from '../Cards/Cards';
 
 function App() {
     return (
         <div>
-          <HelloWord 
-            title="This is title."
-          />
+          <Cards />
         </div>
     );
 }
